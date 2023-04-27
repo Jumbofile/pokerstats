@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import FileReader from './Upload/filereader';
+import ParseResults from './Results/parseResults';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FileReader/>
+    <ParseResults/>
   </React.StrictMode>
 );
 
